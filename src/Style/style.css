@@ -1,0 +1,30 @@
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideOutRight {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.slide-in {
+  animation: slideInRight 0.5s forwards;
+}
+
+.slide-out {
+  animation: slideOutRight 0.10s forwards;
+}
+.nav-aside
+{
+  z-index: 999;
+  
+}
