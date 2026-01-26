@@ -19,7 +19,11 @@ export default function Journey()
             </h2>
 
             <p className="text-base md:text-lg font-medium text-gray-200">
+<<<<<<< HEAD
               3 Years of experience working on modern frontend and backend development,
+=======
+              2+ Years of experience working on modern frontend and backend development,
+>>>>>>> 71cca951122122de8d86cf5a723bfb5893e2447a
               contributing to high-quality products, collaborating with teams, and solving real-world problems.
             </p>
      </div>
