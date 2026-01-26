@@ -27,11 +27,7 @@ export default function HomePage()
             </h1>
 
           <p className="text-lg md:text-xl text-gray-100">
-<<<<<<< HEAD
             I'm a dedicated <span className="font-semibold text-purple-200">Software Engineer</span> with over 3 years of experience in designing and developing high-quality web applications. I focus on writing clean, efficient, and maintainable code that solves real-world problems.
-=======
-            I'm a dedicated <span className="font-semibold text-purple-200">Software Engineer</span> with over 2 years of experience in designing and developing high-quality web applications. I focus on writing clean, efficient, and maintainable code that solves real-world problems.
->>>>>>> 71cca951122122de8d86cf5a723bfb5893e2447a
           </p>
 
           <p className="text-base md:text-lg text-gray-200">
