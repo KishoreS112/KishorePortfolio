@@ -6,13 +6,13 @@ import { FaDownload } from "react-icons/fa";
 export default function HomePage()
 {
   const handleDownload = async () => {
-  const response = await fetch('/kishore.pdf');
+  const response = await fetch('/Kishore.pdf');
   const blob = await response.blob();
   const url = window.URL.createObjectURL(blob);
 
   const a = document.createElement('a');
   a.href = url;
-  a.download = 'kishore.pdf';
+  a.download = 'Kishore.pdf';
   a.click();
   window.URL.revokeObjectURL(url);
 };
